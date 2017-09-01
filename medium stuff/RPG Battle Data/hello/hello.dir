@@ -1,0 +1,4 @@
+'playerattacks', (0, 130)
+'playerhealth', (512, 5)
+'playerstamina', (1024, 5)
+'playerinventory', (1536, 35)
