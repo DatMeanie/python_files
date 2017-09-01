@@ -52,14 +52,10 @@ def playerattack(playerinv, response, stamina):
 while True:
     action = str(input())
     print(' ')
-    try:
-        if action == 'inventory':
-            showinventory(playerinventory)
-        elif action == playerinventory[action]:
-            playerattack(playerinventory, action, playerstamina)
-        else:
-            print('Invalid action, try again')
-            print(' ')
-    except Exception:
+    if action == 'inventory':
+        showinventory(playerinventory)
+    #elif action == playerinventory[action]: - keyerror. fix in future
+        #playerattack(playerinventory, action, playerstamina) write item, attack
+    else:
         print('Invalid action, try again')
         print(' ')
