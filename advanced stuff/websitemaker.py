@@ -5,7 +5,7 @@
 import random, os
 
 classNumber = 1
-turns = 10 #how many classes to be made?
+turns = 1000 #how many classes to be made?
 
 textalign = ["left", "center", "right", "nothing"]
 bordercheck = ["yes", "no"]
