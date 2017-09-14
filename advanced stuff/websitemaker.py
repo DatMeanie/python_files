@@ -39,10 +39,16 @@ for x in range(0, turns):
         if borderside == 'all':
             styleSheet.write('\n border-style: ' + borderstyle[random.randint(0, 7)] + ';')
             styleSheet.write('\n border-color: ' + ColorPicker() + ';')
+            styleSheet.write('\n border-width: ' + RandomNumber() + ';')
+            if bordercheck[random.randint(0,1)] != 'no':
+                styleSheet.write('\n border-radius: ' + str(random.randint(0,10)) + 'px;')
         else:
             border = borderside[random.randint(0,3)]
             styleSheet.write('\n border-' + border + '-style: ' + borderstyle[random.randint(0, 7)] + ';')
             styleSheet.write('\n border-' + border + '-color: ' + ColorPicker() + ';')
+            styleSheet.write('\n border-' + border + '-width: ' + RandomNumber() + ';')
+            if bordercheck[random.randint(0,1)] != 'no':
+                styleSheet.write('\n border-' + border + '-radius: ' + str(random.randint(0,10)) + 'px;')
     styleSheet.write('\n } \n')
     classNumber += 1
 styleSheet.close()
