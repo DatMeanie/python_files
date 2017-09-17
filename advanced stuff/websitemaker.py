@@ -48,7 +48,7 @@ for x in range(0, turns):
             styleSheet.write('\n border-' + border + '-color: ' + ColorPicker() + ';')
             styleSheet.write('\n border-' + border + '-width: ' + RandomNumber() + ';')
             if bordercheck[random.randint(0,1)] != 'no':
-                styleSheet.write('\n border-' + border + '-radius: ' + str(random.randint(0,10)) + 'px;')
+                styleSheet.write('\n border-radius: ' + str(random.randint(0,10)) + 'px;')
     styleSheet.write('\n } \n')
     classNumber += 1
 styleSheet.close()
