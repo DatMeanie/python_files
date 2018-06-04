@@ -22,7 +22,7 @@ while True:
         print('Try Again')
         
 im = Image.open(picture)
-width, height = im.size
+width, height = im.size #open image
 im.getpixel((0,0))
 (0, 0, 0, 0)
 for x in range(width):

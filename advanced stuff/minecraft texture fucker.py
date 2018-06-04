@@ -1,6 +1,6 @@
 #!python3
 #!/usr/bin/python
-#fucks with textures
+#fucks with textures in minecraft
 from PIL import Image
 import os, random, re
 
@@ -20,7 +20,6 @@ for folderName, subfolders, filenames in os.walk('.\\assets\\minecraft\\textures
     print('Current folder is ' + folderName)
     for filename in filenames:
         directory3 = os.path.abspath(filename)
-        #print(directory3)
         try:
             print(filename)
             im = Image.open(folderName + '\\' + filename)

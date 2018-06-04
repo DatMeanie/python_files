@@ -1,6 +1,5 @@
 #! python3
-#Regex Search - Want to search for a specific thing inside txt and py files?
-#This program does that
+# Regex Search - Want to search for a specific thing inside txt and py files?
 import re, os
 
 print('Enter in a directory with txt files: ')

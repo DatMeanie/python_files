@@ -1,4 +1,5 @@
 #! python3
+# man skriver in dir till ett minecraft resourcepack och sedan ersätter ljudfiler
 import re, os, shutil, random
 
 soundDir = []

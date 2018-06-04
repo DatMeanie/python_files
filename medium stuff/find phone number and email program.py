@@ -1,5 +1,7 @@
 #! python3
 # Find Phone Numbers and Emails, not perfect though
+# man kopierar allting på en websida eller dokument sen klistras det in i appen
+# BEHÖVER PYPERCLIP !!
 import pyperclip, re
 
 phoneRegex = re.compile(r'''(
