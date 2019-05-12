@@ -6,14 +6,12 @@ def getAnswer(answerNumber):
         return 'It is certain'
     elif answerNumber == 2:
         return 'It is decidely so'
-    elif answerNumber == 3 or s == "am i gay?":
-        return 'Yes'
     elif answerNumber == 4:
         return 'My name jeff'
     elif answerNumber == 5:
         return 'I do not know'
     elif answerNumber == 6:
-        return 'Stop being such a faggot'
+        return 'Stop being such a noob'
     elif answerNumber == 7:
         return 'Sorry, it is no'
     elif answerNumber == 8:
